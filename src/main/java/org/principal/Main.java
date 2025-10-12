@@ -19,8 +19,9 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(fileLocation);
 
-        Scene scene = new Scene(root, 600, 400);
+        Scene scene = new Scene(root, 800, 400);
 
+        primaryStage.setResizable(false);
         primaryStage.setTitle("Controle de Estoque");
         primaryStage.setScene(scene);
         primaryStage.show();
